@@ -1,0 +1,95 @@
+#count-control-container, #entrance-count {
+	display: inline-block;
+}
+
+#count-control-container {
+	margin-left: 10px;
+}
+
+#count-control-container input {
+	margin: 1px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	-ms-appearance: none;
+	-o-appearance: none;
+	border: none;
+	border-radius: 20px;
+	text-align: center;
+	padding: 0 5px;
+	font-weight: bold;
+	cursor: pointer;
+	color: #ffffff;
+	background-color: #0000ff;
+}
+
+#count-control-container input:disabled {
+	background-color: #cccccc;
+}
+
+#parking-slot-container {
+	overflow-x: auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: left;
+	align-items: center;
+	min-height: 194px;
+}
+
+#parking-slot-container #slots {
+	white-space: nowrap;
+}
+
+#parking-slot-container #slots, #parking-slot-container #add-entry-container {
+	display: inline-block;
+}
+
+#parking-slot-container #add-entry-container input {
+	border-radius:50px;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	margin: 0 20px;
+}
+
+#parking-slot-container #slots .slot-item {
+	display: inline-block;
+	padding: 25px;
+	border: 1px solid #eeeeee;
+	margin: 5px;
+	text-align: center;
+	position: relative;
+}
+
+#parking-slot-container #slots .slot-item input {
+	margin-top: 10px;
+}
+
+#parking-slot-container #slots .slot-item p {
+	margin: 0 0 5px;
+	text-align: left;
+}
+
+#parking-slot-container #slots .slot-item div {
+	text-align: left;
+}
+
+#parking-slot-container #slots .slot-item .delete-slot-btn {
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	margin-top: 0px;
+	margin: 1px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	-ms-appearance: none;
+	-o-appearance: none;
+	border: none;
+	border-radius: 20px;
+	text-align: center;
+	padding: 1px 5px;
+	font-weight: bold;
+	cursor: pointer;
+	color: #ffffff;
+	background-color: #0000ff;
+}

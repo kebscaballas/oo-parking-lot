@@ -1,0 +1,39 @@
+#add-car-container {
+	background-color: #cecece;
+	padding: 20px;
+}
+
+#add-car-container input, #add-car-container select {
+	margin: 0px 20px 0px 5px;
+}
+
+p.parked-car-header {
+	font-size: 22px;
+	color: #000000;
+	padding: 10px;
+	margin: 0;
+	font-weight: 600;
+}
+
+#car-entry-list {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: left;
+}
+
+#car-entry-list .car-entry {
+	width: 20.48%;
+	padding: 20px;
+	border: 1px solid #eeeeee;
+	text-align: center;
+}
+
+#car-entry-list .car-entry input {
+	margin-top: 10px;
+}
+
+#car-entry-list .car-entry p {
+	margin: 0 0 5px;
+	text-align: left;
+}
